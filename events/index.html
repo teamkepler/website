@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="/node_modules/slick-carousel/slick/slick-theme.css">
   <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js">
+  </script>
   <script>
     $(function() {
       $("#header").load("/partials/header.html");
@@ -17,19 +21,18 @@
 </head>
 <body>
 <div id="header"></div>
-<div class="container-1">
-  <h2>大会・イベント</h2>
-</div>
 <div id="main">
+  <div id="main-title">
+    <h2>大会・イベント</h2>
+  </div>
   <div id="main-upper">
     <div class="keyvisual">
       <ul class="keyvisual-list">
         <li><img src="/images/preparation.png" alt="" /></li>
-        <!-- <li><img src="" alt="" /></li>
-        <li><img src="" alt="" /></li>
-        <li><img src="" alt="" /></li>
-        <li><img src="" alt="" /></li>
-        <li><img src="" alt="" /></li> -->
+        <li><img src="/images/carousel_1.png" alt="" /></li>
+        <li><img src="/images/preparation.png" alt="" /></li>
+        <li><img src="/images/carousel_1.png" alt="" /></li>
+        <li><img src="/images/preparation.png" alt="" /></li>
       </ul>
     </div>
     <div id="keyvisual-title">
@@ -37,16 +40,131 @@
         <h2>最新ニュース</h2>
       </div>
       <ul class="title-list">
-        <li><a href="">Team Kepler主催・「第一回ケプラーコミュニティ」が、11月に東京で開催予定。詳しくは本ホームページで近日発表</a></li>
-        <li><a href="">10月6日～10月7日に東京・豊洲で試乗会が実施されました</a></li>
-        <li><a href="">Team Kepler神奈川支部が発足しました</a></li>
-        <li><a href="">神奈川・厚木で試乗会が実施されました</a></li>
-        <li><a href="">Team Keplerプロジェクト「ケプラーフロンティア」が始動</a></li>
+        <li><a href="">「新競技ケプラーに関する説明会」が、11月に東京で開催予定</a></li>
+        <li><a href="">10月6日～10月7日に豊洲支部で試乗会が実施されました</a></li>
+        <li><a href="">ケプラー選手権の会場決めに向け、代表が複数の候補地を視察</a></li>
+        <li><a href="">9月に代表が厚木支部を訪問し、Team Kepler本部との強い連携を示す</a></li>
+        <li><a href="">Team Kepler主催・「ケプラー選手権」に向け、ケプラー大会委員会が発足</a></li>
       </ul>
     </div>
+  </div>
+  <div class="container container-1">
+    <div class="sub-title">
+      <h2>大会情報</h2>
+    </div>
+    <ul class="container-list container-list-1">
+      <li><img src="/images/preparation.png" alt="" /></li>
+      <li><img src="/images/preparation.png" alt="" /></li>
+      <li><img src="/images/preparation.png" alt="" /></li>
+      <li><img src="/images/preparation.png" alt="" /></li>
+      <li><img src="/images/preparation.png" alt="" /></li>
+      <li><img src="/images/preparation.png" alt="" /></li>
+    </ul>
+  </div>
+  <div class="container container-2">
+    <div class="sub-title">
+      <h2>イベント情報</h2>
+    </div>
+    <ul class="container-list container-list-2">
+      <li>
+        <div class="events-detail-image">
+          <img src="/images/preparation.png" alt="" />
+        </div>
+        <table class="events-detail-text">
+          <tbody>
+            <tr>
+              <td class="w50">日程</td>
+              <td>2016年11月5日(土)</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>場所</td>
+              <td>Team Kepler本部</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <div class="events-detail-image">
+          <img src="/images/preparation.png" alt="" />
+        </div>
+        <table class="events-detail-text">
+          <tbody>
+            <tr>
+              <td class="w50">日程</td>
+              <td>2016年11月11日(金)</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>場所</td>
+              <td>Team Kepler豊洲支部</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <div class="events-detail-image">
+          <img src="/images/preparation.png" alt="" />
+        </div>
+        <table class="events-detail-text">
+          <tbody>
+            <tr>
+              <td class="w50">日程</td>
+              <td>2016年11月12日(土)</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>場所</td>
+              <td>Team Kepler本部</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </div>
+  <div class="container container-3">
+    <div class="sub-title">
+      <h2>ニュース</h2>
+    </div>
+    <ul class="container-list container-list-3">
+      <li>
+        <img src="/images/preparation.png" alt="" />
+        <h3><a href="">ケプラー選手権開催に向けて</a></h3>
+        <p>&nbsp;&nbsp;Team Kepler・山口太朗代表(22)は、第一回目となるケプラー選手権を、来年の3月までには開催したい意向を示した。Team Keplerによると、山口代表は現時点での課題をいくつか指摘するも、「目の前の課題を一つ一つ解決して、選手権の成功に導いていきたい。」と語った。</p>
+      </li>
+      <li>
+        <img src="/images/preparation.png" alt="" />
+        <h3><a href="">ケプラーの面白さとは</a></h3>
+        <p>&nbsp;&nbsp;Team Kepler・山口太朗代表(22)は、第一回目となるケプラー選手権を、来年の3月までには開催したい意向を示した。Team Keplerによると、山口代表は現時点での課題をいくつか指摘するも、「目の前の課題を一つ一つ解決して、選手権の成功に導いていきたい。」と語った。</p>
+      </li>
+      <li>
+        <img src="/images/preparation.png" alt="" />
+        <h3><a href="">大会に出場するためには</a></h3>
+        <p>&nbsp;&nbsp;Team Kepler・山口太朗代表(22)は、第一回目となるケプラー選手権を、来年の3月までには開催したい意向を示した。Team Keplerによると、山口代表は現時点での課題をいくつか指摘するも、「目の前の課題を一つ一つ解決して、選手権の成功に導いていきたい。」と語った。</p>
+      </li>
+      <!-- <li>
+        <img src="/images/preparation.png" alt="" />
+        <h3><a href="">初心者講習を開始</a></h3>
+        <p>&nbsp;&nbsp;Team Kepler・山口太朗代表(22)は、第一回目となるケプラー選手権を、来年の3月までには開催したい意向を示した。Team Keplerによると、山口代表は現時点での課題をいくつか指摘するも、「目の前の課題を一つ一つ解決して、選手権の成功に導いていきたい。」と語った。</p>
+      </li> -->
+    </ul>
   </div>
 
 </div>
 <div id="footer"></div>
+<script>
+  $(function() {
+    $('.keyvisual-list').slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      infinite: true,
+      pauseOnHover: false
+    });
+  });
+</script>
 </body>
 </html>
