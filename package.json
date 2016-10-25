@@ -1,5 +1,5 @@
 {
-  "name": "teamkepler_website",
+  "name": "website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yohanesu/teamkepler_website.git"
+    "url": "git+https://github.com/teamkepler/website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yohanesu/teamkepler_website/issues"
+    "url": "https://github.com/teamkepler/website/issues"
   },
-  "homepage": "https://github.com/yohanesu/teamkepler_website#readme",
+  "homepage": "https://github.com/teamkepler/website#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2"
