@@ -18,7 +18,7 @@ body {
 }
 #main-container {
   width: 1024px;
-  margin: auto;
+  margin: 0 auto 30px;
 }
 #left-container {
   width: 40%;
