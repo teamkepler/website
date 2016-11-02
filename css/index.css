@@ -72,13 +72,10 @@ body {
   text-align: center;
   font-size: 12px;
 }
-.category-seminar {
-  background: #179b00;
-}
-.category-lesson {
+.category-events {
   background: #ff6b00;
 }
-.category-interview {
+.category-top {
   background: #ea1717;
 }
 .text-bg {
