@@ -84,6 +84,10 @@ body {
   vertical-align: middle;
   width: 334px;
 }
+.title-list a:hover {
+  background: #3e3e3e;
+  color: #eee;
+}
 .container {
   margin: 30px auto;
   overflow: hidden;
