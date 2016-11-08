@@ -59,7 +59,7 @@ body {
   float: left;
   position: relative;
 }
-.container-list .right {
+.container-list li:nth-child(4n) {
   margin-right: 0;
 }
 .category {
@@ -72,11 +72,14 @@ body {
   text-align: center;
   font-size: 12px;
 }
-.category-events {
+.category-training {
   background: #ff6b00;
 }
 .category-top {
   background: #ea1717;
+}
+.category-events {
+  background: #148800;
 }
 .text-bg {
   height: 60px;
