@@ -18,6 +18,8 @@
   "homepage": "https://github.com/teamkepler/website#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-connect": "^1.0.2"
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-php": "^1.5.1",
+    "load-grunt-tasks": "^3.5.2"
   }
 }

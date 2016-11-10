@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script>
+    $(function() {
+      $("#header").load("/partials/header.html");
+      $("#footer").load("/partials/footer.html");
+    });
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="teamkepler,チームケプラー,パーソナルモビリティ,電動一輪車,セグウェイ,segway,ninebot,乗り物,未来">
+  <meta name="description" content="Team Keplerに関するメールでのお問い合わせはこちらから。">
+  <meta name="viewport" content="width=1080">
+  <link rel="stylesheet" href="/css/contact/inquiry.css" type="text/css">
+  <title>Team Kepler - メールでのお問い合わせ</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="main">
+  <div id="main-title">
+    <h2>メールでのお問い合わせ</h2>
+  </div>
+  <div class="inquiry">
+    <form class="form-container" method="post">
+      <div class="container container-1">
+        <h3>お問い合わせの種類</h3>
+        <ul>
+          <li class="question-type">
+            <label>
+              <input type="radio" name="inquiry[question_type]" value="general">
+              一般的なお問い合わせ
+            </label>
+          </li>
+          <li class="question-type">
+            <label>
+              <input type="radio" name="inquiry[question_type]" value="interview">
+              メディア関連
+            </label>
+          </li>
+          <li class="question-type">
+            <label>
+              <input type="radio" name="inquiry[question_type]" value="match">
+              大会について
+            </label>
+          </li>
+          <li class="question-type">
+            <label>
+              <input type="radio" name="inquiry[question_type]" value="events">
+              イベントについて
+            </label>
+          </li>
+          <li class="question-type">
+            <label>
+              <input type="radio" name="inquiry[question_type]" value="training">
+              トレーニングについて
+            </label>
+          </li>
+        </ul>
+       </div>
+        <div class="container container-2">
+          <h3>お客様情報</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td class="label">
+                  お名前
+                </td>
+                <td>
+                  <input type="text" name="inquiry[name]">
+                </td>
+              </tr>
+              <tr>
+                <td class="label">
+                  メールアドレス
+                </td>
+                <td>
+                  <input type="text" name="inquiry[email]">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="container container-2 container-3">
+          <h3>お問い合わせ内容</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td class="label">
+                  件名
+                </td>
+                <td>
+                  <input type="text" name="inquiry[subject]">
+                </td>
+              </tr>
+              <tr>
+                <td class="label">
+                  内容
+                </td>
+                <td>
+                  <textarea name="inquiry[message]" rows="4" cols="40"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <div class="form-footer">
+        <input type="button" name="submit" value="送信する" class="button">
+      </div>
+    </div>
+  </form>
+</div>
+<div id="footer"></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js">
+</script>
+</body>
+</html>
