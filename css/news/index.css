@@ -1,0 +1,123 @@
+body {
+  margin: auto;
+  min-width: 1080px;
+  color: #333333;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+}
+#main {
+  margin: 0 auto;
+  overflow: hidden;
+}
+#main-title {
+  margin: 0;
+  background: linear-gradient(to bottom, #eaeaea 0%, #f0f0f0 100%);
+  min-width: 1080px;
+  padding: 0;
+}
+#main-title h2 {
+  margin: 0 auto;
+  padding: 20px 0 20px 50px;
+  height: 40px;
+  line-height: 40px;
+  width: 1024px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#container-wrap {
+  width: 1024px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+#sub-container {
+  float: right;
+  width: 220px;
+  padding-right: 50px;
+}
+.sub-title {
+  background: #003a6c;
+  color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 0 8px 15px;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 2px solid #606060;
+}
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.nav-list > li > a {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  background: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding-left: 15px;
+  color: #333333;
+  text-decoration: none;
+}
+.nav-list > li > a:hover {
+  background: #606060;
+  color: #eee;
+}
+#main-container {
+  float: left;
+  width: 730px;
+}
+.container-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.container-list > li:first-child {
+  border-top: 1px solid #ccc;
+}
+.container-list > li {
+  border-bottom: 1px solid #ccc;
+}
+.container-list > li > a {
+  display: table;
+  width: 690px;
+  padding: 15px 10px;
+  color: #333333;
+  font-size: 15px;
+}
+.container-list > li > a:hover {
+  background: #f2f2f2;
+}
+.container-list > li > a > span {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+  height: 22px;
+  line-height: 22px;
+}
+.container-list > li > a > span:last-child {
+  margin-right: 0;
+}
+.container-list .category {
+  width: 120px;
+  color: #eee;
+  text-align: center;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+}
+.news-text {
+  padding-left: 140px;
+  width: 570px;
+}
+.category-top {
+  background: #ea1717;
+}
+.category-training {
+  background: #ff6b00;
+}
+.category-events {
+  background: #148800;
+}

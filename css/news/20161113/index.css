@@ -87,8 +87,8 @@ body {
 }
 .container-2 .photo-text {
   float: left;
-  width: calc(100% - 270px);
-  padding: 0 10px;
+  width: calc(100% - 260px);
+  padding: 0 0 0 10px;
 }
 .container-3 h2 {
   font-size: 20px;

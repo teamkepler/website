@@ -45,7 +45,7 @@ body {
   width: 1024px;
 }
 .container-list {
-  margin: 30px auto;
+  margin: 30px auto 0;
   width: 1024px;
   padding: 0;
   list-style: none;
@@ -116,4 +116,25 @@ body {
   height: 150px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
+}
+.view-all {
+  width: 113px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url(/images/icon/arrow-right.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+}
+.view-all a {
+  display: table-cell;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  padding-left: 22px;
+  height: 30px;
+  vertical-align: middle;
+}
+.view-all:hover {
+  opacity: 0.8;
 }
