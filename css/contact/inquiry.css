@@ -85,8 +85,29 @@ body {
   border-radius: 4px;
   color: #eee;
   font-weight: bold;
+  width: 290px;
+  margin: auto;
 }
 .button:hover {
   cursor: pointer;
   background: #62cb23;
+}
+.direct-mail {
+  margin: 20px auto;
+  width: 1024px;
+}
+.direct-mail h2 {
+  width: 200px;
+  margin: 0;
+  padding-left: 5px;
+  border-left: 5px solid #000091;
+}
+.direct-mail p {
+  margin: 10px 0 0;
+}
+.direct-mail img {
+  width: 435px;
+}
+.gmail-address {
+  border-bottom: 2px solid #000057;
 }
