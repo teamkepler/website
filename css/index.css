@@ -62,6 +62,12 @@ body {
 .container-list li:nth-child(4n) {
   margin-right: 0;
 }
+.new img {
+  position: absolute;
+  width: 60px;
+  top: 0;
+  right: 0;
+}
 .category {
   position: absolute;
   top: 0;
