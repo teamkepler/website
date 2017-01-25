@@ -1,0 +1,46 @@
+.sub-title {
+  height: 60px;
+  line-height: 60px;
+  background: #023df0;
+  border-bottom: 2px solid #5d5d5d;
+}
+.sub-title h2 {
+  margin: 0px;
+  padding-left: 20px;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: bold;
+}
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.news-list p {
+  margin: 0;
+}
+.news-list li > a {
+  height: 50px;
+  line-height: 26px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  width: calc(100% - 40px);
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.news-list li > a:hover {
+  background: #707070;
+  color: white;
+  text-decoration: underline;
+}
+.news-list .active {
+  background: #707070;
+  color: white;
+}

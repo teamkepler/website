@@ -1,0 +1,99 @@
+body {
+  margin: auto;
+  min-width: 1080px;
+  color: #333333;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+}
+#main {
+  margin: 0 auto;
+  overflow: hidden;
+}
+#main-title {
+  margin: 0;
+  background: linear-gradient(to bottom, #eaeaea 0%, #f0f0f0 100%);
+  min-width: 1080px;
+  padding: 0;
+}
+#main-title h2 {
+  margin: 0 auto;
+  padding: 20px 0 20px 50px;
+  height: 40px;
+  line-height: 40px;
+  width: 1024px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#position {
+  min-width: 1080px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#position-list {
+  width: 1024px;
+  margin: auto;
+  font-size: 13px;
+}
+#position-list span:first-child {
+  background-image: url(/images/icon/home.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+}
+#position-list span:first-child a {
+  padding-left: 20px;
+}
+#position-list a {
+  text-decoration: none;
+  color: #2f2fff;
+}
+#position-list a:hover {
+  text-decoration: underline;
+}
+#container-wrap {
+  width: 1024px;
+  margin: auto;
+  overflow: hidden;
+}
+#sub-news {
+  width: 30%;
+  float: right;
+}
+#main-container {
+  float: left;
+  width: 70%;
+}
+.date {
+  font-size: 15px;
+  padding-left: 18px;
+  background-image: url(/images/icon/clock.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 0 3px;
+}
+.news-title {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+.container {
+  overflow: hidden;
+  margin-right: 50px;
+}
+.container .text {
+  padding: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  clear: both;
+}
+.text p {
+  text-decoration: underline;
+}
+.container-1 {
+  margin: 0;
+}
+.container img {
+  width: 660px;
+  height: 350px;
+}
