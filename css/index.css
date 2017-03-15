@@ -84,6 +84,9 @@ body {
 .category-top {
   background: #ea1717;
 }
+.category-match {
+  background: #023df0;
+}
 .category-events {
   background: #148800;
 }
