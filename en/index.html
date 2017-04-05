@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-90760256-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script>
+  $(function() {
+    $("#header").load("/partials/header.html");
+    $("#footer").load("/partials/footer.html");
+  });
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="teamkepler,チームケプラー,パーソナルモビリティ,電動一輪車,セグウェイ,segway,ninebot,乗り物,未来,山口太朗">
+<meta name="description" content="Team Keplerの公式サイトです。電動一輪車・二輪車等を使った競技「ケプラー」の大会を主催しています。また、イベントでのパフォーマンス披露や講習会での指導など、幅広く活動しています。">
+<meta name="viewport" content="width=1080">
+<link rel="stylesheet" href="/css/index.css" type="text/css">
+<title>Team Kepler</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="main">
+  <div id="carousel">
+      <div id="carousel-main">
+        <div><img src="/images/carousel/carousel_01.png" alt="" /></div>
+        <!-- <div><img src="/images/carousel/carousel_02.png" alt="" /></div>
+        <div><img src="/images/carousel/carousel_03.png" alt="" /></div> -->
+      </div>
+  </div>
+  <div class="container container-1">
+    <div class="title">
+      <h2>News</h2>
+    </div>
+    <ul class="container-list">
+      <li>Under construction...</li>
+      <!-- <li class="">
+        <a href="/news/match/20170315/">
+          <div class="photo">
+            <img src="/images/container-list/15.png" alt="第1回ケプラー選手権支部大会開催予定" />
+          </div>
+          <div class="new">
+            <img src="/images/icon/new.png" alt="">
+          </div>
+          <div class="category category-events">
+            イベント
+          </div>
+          <div class="text-bg">
+          </div>
+          <div class="text-area">
+            <div class="date">
+              2017.03.19
+            </div>
+            <div class="text">
+              第１回ケプラー選手権支部大会のコース紹介の動画がYouTubeでアップされました。
+            </div>
+          </div>
+        </a>
+      </li> -->
+    </ul>
+    <div class="view-all">
+      <a href="/news/">View all</a>
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
+<script>
+  $("document").ready(function(){
+    $('#carousel-main').slick({
+      autoplay: true,
+      autoplaySpeed: 6000,
+      arrows: false,
+      dots: true,
+      fade: true,
+      pauseOnHover: false,
+      swipe: false,
+      speed: 800
+    });
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js">
+</script>
+</body>
+</html>
