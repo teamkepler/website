@@ -3,7 +3,7 @@ body {
   min-width: 1080px;
   color: #c1c1c1;
   background-color: black;
-  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
@@ -14,6 +14,130 @@ body {
 }
 #carousel img {
   background: linear-gradient(to bottom, black 0%, blue 100%);
+}
+.content {
+  width: 1040px;
+  margin: 0 auto;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1.4px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-left: 35px;
+  height: 25px;
+  line-height: 25px;
+  background-image: url(/images/icon/circle.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+.content a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+.content a:hover {
+  text-decoration: none;
+  color: #e8be13;
+}
+.content ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 0;
+}
+.content ul li {
+  float: left;
+}
+.content-1 li:first-child {
+  float: left;
+  margin-right: 15px;
+}
+.content-1 li img {
+  width: 575px;
+  height: 250px;
+}
+.content-2 li {
+  width: 230px;
+  height: 170px;
+  margin-right: 40px;
+  /*margin-right: calc(103px/3);*/
+  /*margin-bottom: 20px;*/
+  float: left;
+  position: relative;
+}
+.content-2 li:nth-child(4n) {
+  margin-right: 0;
+}
+.new img {
+  position: absolute;
+  width: 60px;
+  top: 0;
+  right: 0;
+}
+.category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 120px;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 12px;
+}
+.category-training {
+  background: #ff6b00;
+}
+.category-top {
+  background: #ea1717;
+}
+.category-match {
+  background: #023df0;
+}
+.category-events {
+  background: #148800;
+}
+.text-bg {
+  height: 60px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.text-area {
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  margin: 0 10px;
+  color: #eee;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.date {
+  font-size: 11px;
+  padding-top: 4px;
+}
+.content-2 a:hover .text-bg {
+  height: 100%;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.content-2 a:hover .text-area {
+  height: 150px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.content-3 li {
+  margin-right: 10px;
+}
+.content-3 li:last-child {
+  margin-right: 0;
 }
 /*#carousel {
   min-width: 1080px;

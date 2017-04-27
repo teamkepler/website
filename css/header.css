@@ -13,8 +13,10 @@
   margin: auto;
   padding: 0;
   /*width: 400px;*/
-  height: 100px;
+  height: 78px;
   float: left;
+  position: absolute;
+  top: 15px;
 }
 #header-upper h1:hover {
   opacity: 0.8;
@@ -38,18 +40,22 @@
   width: 25px;
   height: 25px;
 }
+.header-sns-list li:last-child img{
+  width: 90px;
+}
+.header-sns-list li img:hover {
+  opacity: 0.8;
+}
 #header-lower {
-  min-width: 1080px;
-  margin: 0;
+  width: 1080px;
+  margin: 0 auto;
   padding: 0;
 }
 .globalnav-list {
-  width: 1080px;
-  height: 30px;
-  line-height: 30px;
   margin: 0 auto;
   list-style: none;
   padding: inherit;
+  overflow: hidden;
 }
 /*.globalnav-list:after {
   content: "";
