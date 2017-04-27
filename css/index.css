@@ -1,12 +1,21 @@
 body {
   margin: auto;
   min-width: 1080px;
-  color: #333333;
+  color: #c1c1c1;
+  background-color: black;
   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
 #carousel {
+  min-width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+#carousel img {
+  background: linear-gradient(to bottom, black 0%, blue 100%);
+}
+/*#carousel {
   min-width: 1080px;
   margin: 0 auto 30px;
   overflow: hidden;
@@ -146,4 +155,4 @@ body {
 }
 .view-all:hover {
   opacity: 0.8;
-}
+}*/
