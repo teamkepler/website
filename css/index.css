@@ -2,7 +2,8 @@ body {
   margin: auto;
   min-width: 1080px;
   color: #c1c1c1;
-  background-color: black;
+  background-color: #080808;
+  /*background: linear-gradient(to bottom, #080808 0%, #0e0e0e 100%);*/
   font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
