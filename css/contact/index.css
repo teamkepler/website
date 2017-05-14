@@ -1,12 +1,69 @@
 body {
   margin: auto;
   min-width: 1080px;
-  color: #333333;
-  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  color: #c1c1c1;
+  /*background-color: #080808;*/
+  background-color: #00518e;
+  /*background: linear-gradient(to bottom, #080808 0%, #0e0e0e 100%);*/
+  font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
-#main-title {
+.globalnav-list #contact a {
+  color: #ffffff;
+  border-bottom: 2px solid #e8be13;
+}
+.content {
+  width: 1040px;
+  margin: 0 auto;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1.4px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-left: 35px;
+  height: 25px;
+  line-height: 25px;
+  background-image: url(/images/icon/circle.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 5px;
+  width: 250px;
+}
+.content-1 a {
+  color: #c1c1c1;
+  text-decoration: none;
+}
+.content-1 a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.content-2 h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+.content-2 a {
+  color: #c1c1c1;
+  text-decoration: none;
+}
+.content-2 a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+/*body {
+  margin: auto;
+  min-width: 1080px;
+  color: #333333;
+  background-color: #080808;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+}*/
+/*#main-title {
   margin: 0;
   background: linear-gradient(to bottom, #eaeaea 0%, #f0f0f0 100%);
   min-width: 1080px;
@@ -81,4 +138,4 @@ body {
 }
 .button a:hover {
   opacity: 0.8;
-}
+}*/
