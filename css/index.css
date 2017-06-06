@@ -1,13 +1,16 @@
 body {
   margin: auto;
   min-width: 1080px;
-  color: #c1c1c1;
+  /*color: #c1c1c1;*/
   /*background-color: #080808;*/
-  background-color: #00518e;
+  /*background-color: #00518e;*/
   /*background: linear-gradient(to bottom, #080808 0%, #0e0e0e 100%);*/
   font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
+}
+#header {
+  background: linear-gradient(to bottom, #001640 0%,#0c51d0 50%, #00518e 100%);
 }
 #carousel {
   min-width: 1080px;
@@ -16,32 +19,37 @@ body {
 }
 #carousel img {
   background: linear-gradient(to bottom, black 0%, blue 100%);
+  width: 100%;
 }
 .content {
-  width: 1040px;
-  margin: 0 auto;
+  /*width: 1040px;*/
+  /*margin: 0 auto;*/
+  /*background: #ccc;*/
+  padding-top: 20px;
 }
 .content h2 {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1.4px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 10px;
-  padding-left: 35px;
+  /*padding-left: 35px;*/
   height: 25px;
   line-height: 25px;
-  background-image: url(/images/icon/circle.png);
+  /*background-image: url(/images/icon/circle.png);*/
   background-size: 25px;
   background-repeat: no-repeat;
+  margin-top: 0;
+  text-align: center;
 }
 .content a {
   text-decoration: none;
-  color: #c1c1c1;
+  color: #333;
 }
-.content a:hover {
+/*.content a:hover {
   text-decoration: none;
   color: #e8be13;
-}
+}*/
 .content ul {
   list-style: none;
   overflow: hidden;
@@ -141,6 +149,17 @@ body {
 }
 .content-3 li:last-child {
   margin-right: 0;
+}
+.content-4 {
+  width: 1040px;
+  margin: 0 auto;
+}
+.content-4 h2 {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: #0f4a77;
+  text-shadow: 2px 2px 2px #1cf9ff;
 }
 .content-4 li {
   margin-top: 10px;

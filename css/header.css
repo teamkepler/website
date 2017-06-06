@@ -1,5 +1,5 @@
 #header-upper {
-  width: 1080px;
+  width: 1040px;
   line-height: 90px;
   height: 90px;
   margin: 0 auto;
@@ -22,7 +22,8 @@
   opacity: 0.8;
 }
 #header-upper h1 img {
-  width: 400px;
+  /*width: 400px;*/
+  width: 370px;
 }
 .header-sns-list {
   float: right;
@@ -74,7 +75,7 @@
   text-align: center;
   color: #c1c1c1;
   text-decoration: none;
-  border-bottom: 2px solid #c1c1c1;
+  /*border-bottom: 2px solid #c1c1c1;*/
   /*font-weight: bold;*/
 }
 .globalnav-list dl {
@@ -94,8 +95,9 @@
   /*color: #ffca00;*/
   /*font-size: 18px;*/
   /*color: #e8be13;*/
-  color: #ffffff;
+  color: white;
+  font-weight: bold;
   /*border-bottom: 2px solid #0007e8;*/
   /*border-bottom: 2px solid #e8be13;*/
-  border-bottom: 2px solid #ffffff;
+  /*border-bottom: 2px solid #1030b1;*/
 }
