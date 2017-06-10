@@ -48,7 +48,7 @@
 }
 #footer-lower {
   /*width: 1080px;*/
-  margin: 30px auto 0 auto;
+  margin: 0px auto 0 auto;
   border-top: 1px solid #c1c1c1;
   background: linear-gradient(to bottom, #00518e 0%,#0c51d0 50%, #001640 100%);
 }
