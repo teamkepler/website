@@ -1,17 +1,13 @@
 body {
   margin: auto;
   min-width: 1080px;
-  /*color: #c1c1c1;*/
-  /*background-color: #080808;*/
-  /*background-color: #00518e;*/
-  /*background: linear-gradient(to bottom, #080808 0%, #0e0e0e 100%);*/
   font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
-#header {
+/*#header {
   background: linear-gradient(to bottom, #001640 0%,#0c51d0 50%, #00518e 100%);
-}
+}*/
 .content {
   width: auto;
   margin: 0 auto;

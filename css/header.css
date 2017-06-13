@@ -1,31 +1,70 @@
-#header-upper {
-  width: 1040px;
+#header-wrap {
   line-height: 90px;
   height: 90px;
   margin: 0 auto;
   padding: 10px 0;
+  background: linear-gradient(to bottom, #023258 0%,#0c51d0 50%, #023258 100%);
+  overflow: hidden;
 }
-#header-upper h1 {
-  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
-  text-align: left;
-  /*font-size: 45px;*/
-  /*color: #c1c1c1;*/
-  margin: auto;
-  padding: 0;
-  /*width: 400px;*/
-  height: 78px;
-  float: left;
-  position: absolute;
-  top: 15px;
+.width-set {
+  width: 1040px;
+  margin: 0 auto;
+  overflow: hidden;
 }
-#header-upper h1:hover {
-  opacity: 0.8;
-}
-#header-upper h1 img {
-  /*width: 400px;*/
+#header-logo {
   width: 370px;
+  height: 72px;
+  margin: auto 0;
+  padding-top: 8px;
+  float: left;
 }
-.header-sns-list {
+#header-logo img {
+  width: 370px;
+
+}
+#globalnav-list {
+  float: right;
+  width: 315px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 31px;
+}
+#globalnav-list li {
+  float: left;
+  margin-right: 40px;
+  border-bottom: 1px solid #c1c1c1;
+}
+#globalnav-list li:last-child {
+  margin-right: 0;
+}
+#globalnav-list li:hover {
+  border-bottom: 1px solid white;
+}
+#globalnav-list a {
+  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
+  display: block;
+  text-align: center;
+  color: #c1c1c1;
+  text-decoration: none;
+}
+#globalnav-list a:hover {
+  color: white;
+}
+#globalnav-list dl {
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  margin: 0;
+}
+#globalnav-list dt {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  padding-bottom: 2px;
+  margin: 0;
+}
+/*.header-sns-list {
   float: right;
   margin: 0;
   position: relative;
@@ -46,58 +85,4 @@
 }
 .header-sns-list li img:hover {
   opacity: 0.8;
-}
-#header-lower {
-  width: 1080px;
-  margin: 0 auto;
-  padding: 0;
-}
-.globalnav-list {
-  margin: 0 auto;
-  list-style: none;
-  padding: inherit;
-  overflow: hidden;
-}
-/*.globalnav-list:after {
-  content: "";
-  clear: both;
-  display: block;
 }*/
-.globalnav-list li {
-  float: left;
-  width: calc(100%/10);
-  margin: 0 13px;
-}
-.globalnav-list a {
-  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
-  /*font-size: 17px;*/
-  display: block;
-  text-align: center;
-  color: #c1c1c1;
-  text-decoration: none;
-  /*border-bottom: 2px solid #c1c1c1;*/
-  /*font-weight: bold;*/
-}
-.globalnav-list dl {
-  height: 20px;
-  line-height: 20px;
-  font-size: 16px;
-  margin: 0;
-}
-.globalnav-list dt {
-  height: 16px;
-  line-height: 16px;
-  font-size: 12px;
-  padding-bottom: 2px;
-  margin: 0;
-}
-.globalnav-list a:hover {
-  /*color: #ffca00;*/
-  /*font-size: 18px;*/
-  /*color: #e8be13;*/
-  color: white;
-  font-weight: bold;
-  /*border-bottom: 2px solid #0007e8;*/
-  /*border-bottom: 2px solid #e8be13;*/
-  /*border-bottom: 2px solid #1030b1;*/
-}
