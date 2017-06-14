@@ -42,8 +42,7 @@ body {
 
 .content-2 {
   width: 1040px;
-  margin: 0 auto;
-  margin-top: 14px;
+  margin: 14px auto 30px;
   overflow: hidden;
 }
 .content-2 h2 {
@@ -75,6 +74,7 @@ body {
   float: left;
   border: 1px solid #c1c1c1;
   margin-right: 14px;
+  height: 100px;
 }
 #thumb li:last-child {
   margin-right: 0;
@@ -116,7 +116,8 @@ body {
 }
 #price-area .td2 {
   width: auto;
+  padding: 0 20px;
 }
-#caution {
-  margin-top: 0;
+.caution {
+  margin: 0;
 }
