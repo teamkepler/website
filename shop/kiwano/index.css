@@ -1,0 +1,122 @@
+body {
+  margin: auto;
+  min-width: 1080px;
+  font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+}
+.content {
+  width: auto;
+  margin: auto;
+}
+
+.content-1 {
+  width: 1040px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c1c1c1;
+}
+.content-1 h1 {
+  font-size: 27px;
+  font-weight: normal;
+  margin-bottom: 0;
+  background: #c1c1c1;
+  color: #000000;
+  margin: 20px 0 5px;
+  padding: 5px 0;
+  padding-left: 5px;
+}
+.content-1 h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.content-1 table {
+  margin: 0;
+  margin-top: -30px;
+}
+.content-1 p {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.content-2 {
+  width: 1040px;
+  margin: 0 auto;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.content-2 h2 {
+  background: #ff820e;
+  color: white;
+  padding: 5px 0px 5px 10px;
+  font-size: 22px;
+  height: 25px;
+  font-weight: normal;
+  line-height: 25px;
+  margin: 0px 0 14px;
+}
+#rollover {
+  float: left;
+  margin-right: 20px;
+}
+#top-thumb {
+  border: 1px solid #c1c1c1;
+  width: 450px;
+  height: 450px;
+}
+#thumb {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  margin: 14px 0px;
+}
+#thumb li {
+  float: left;
+  border: 1px solid #c1c1c1;
+  margin-right: 14px;
+}
+#thumb li:last-child {
+  margin-right: 0;
+}
+#thumb img {
+  width: 100px;
+  height: 100px;
+}
+#description {
+  float: left;
+  width: 568px;
+}
+#description h3 {
+  font-size: 18px;
+  margin: 0px 0px 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c1c1c1;
+  width: 558px;
+}
+.description-detail p {
+  /*margin: 5px 0 10px;*/
+  line-height: 20px;
+}
+
+#price-area {
+  border: 1px solid #c1c1c1;
+  background: #eee;
+}
+#price-area .td1 {
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+  border-right: 1px solid #c1c1c1;
+  padding: 0;
+}
+#price-area .td1 span {
+  font-size: 22px;
+  color: red;
+}
+#price-area .td2 {
+  width: auto;
+}
+#caution {
+  margin-top: 0;
+}
