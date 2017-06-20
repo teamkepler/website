@@ -104,7 +104,8 @@ body {
   background: #eee;
 }
 #price-area .td1 {
-  width: 180px;
+  width: 200px;
+  height: 70px;
   text-align: center;
   font-size: 16px;
   border-right: 1px solid #c1c1c1;
