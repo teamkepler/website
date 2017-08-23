@@ -49,6 +49,12 @@ body {
   border-bottom: 1px solid #b5b5b5;
   line-height: 16px;
 }
+.headline-news a {
+  text-decoration: none;
+}
+.headline-news a:hover {
+  text-decoration: underline;
+}
 .headline-news dt {
   width: 90px;
   font-size: 15px;
