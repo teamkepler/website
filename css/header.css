@@ -24,7 +24,7 @@
 }
 #globalnav-list {
   float: right;
-  width: 315px;
+  width: 410px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -47,6 +47,7 @@
   text-align: center;
   color: #c1c1c1;
   text-decoration: none;
+  transition: 0.3s;
 }
 #globalnav-list a:hover {
   color: white;
@@ -64,25 +65,3 @@
   padding-bottom: 2px;
   margin: 0;
 }
-/*.header-sns-list {
-  float: right;
-  margin: 0;
-  position: relative;
-  top: 18px;
-  right: 15px;
-}
-.header-sns-list li {
-  float: left;
-  margin-left: 5px;
-  list-style: none;
-}
-.header-sns-list li img {
-  width: 25px;
-  height: 25px;
-}
-.header-sns-list li:last-child img{
-  width: 90px;
-}
-.header-sns-list li img:hover {
-  opacity: 0.8;
-}*/

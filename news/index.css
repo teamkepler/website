@@ -24,12 +24,11 @@ body {
   margin-left: 40px;
 }
 
-/*#page-title {
-
+#page-title {
+  height: 180px;
+  text-align: center;
 }
-#page-title h1 {
-  margin: 0;
-}*/
+
 
 .content {
   border: 1px solid #b1b1b1;
@@ -64,23 +63,41 @@ body {
 }
 .share-sns li {
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
 }
-.upper .title {
-  margin: 0px 0px 5px;
+
+.title {
+  margin: 0px auto 10px;
+  width: 680px;
   font-size: 22px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #b1b1b1;
+}
+.title:hover {
+  opacity: 0.8;
+}
+.title::after {
+  content: "▼";
+  font-size: 22px;
+}
+.title.active::after {
+  content: "▲";
 }
 
 .article {
   width: 680px;
   margin: 0 auto;
-  padding: 10px 0px;
-  border-top: 1px solid #b1b1b1;
+  padding: 0px 0px 10px;
+  display: none;
 }
 .article p {
   font-size: 18px;
   line-height: 27px;
   margin: 0 0 10px 0px;
+}
+.article img {
+  border: 1px solid #b1b1b1;
 }
 
 
