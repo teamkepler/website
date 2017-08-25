@@ -1,5 +1,5 @@
 #header-wrap {
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
   overflow: hidden;
   /*border-bottom: 1px solid #b1b1b1;*/
@@ -10,18 +10,26 @@
 #logo-area {
   width: 1080px;
   margin: 0 auto;
-  /* float: left; */
   overflow: hidden;
 }
 
 #logo-area a {
-  background-image: url(/images/header/main-logo.png);
+  background-image: url('/images/header/main-logo.png');
   background-repeat: no-repeat;
   background-size: 90px;
   width: 90px;
   height: 90px;
   display: block;
   margin: 0 auto;
+  transition: 0.2s;
+  position: relative;
+  left: -206px;
+}
+#logo-area img {
+  position: relative;
+  top: 13px;
+  left: 94px;
+  width: 400px;
   transition: 0.2s;
 }
 #logo-area a:hover {
