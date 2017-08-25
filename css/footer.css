@@ -1,56 +1,7 @@
-#footer-upper {
-  width: 1040px;
-  margin: 60px auto 0px auto;
-}
-.link-content {
-  overflow: hidden;
-}
-.link-content ul {
-  width: 158px;
-  float: left;
-  overflow: hidden;
-  padding: 0;
-  margin: 0 136px 0 0px;
-}
-.link-content ul:last-child {
-  margin: 0;
-}
-.link-content ul li {
-  list-style: none;
-  overflow: hidden;
-}
-.link-content ul li h4 {
-  margin: 30px 0 5px 0;
-  font-size: 15px;
-  font-weight: initial;
-  color: #f1f1f1;
-}
-.link-content ul li h4:hover {
-  text-decoration: underline;
-}
-.link-content ul li:first-child h4 {
-  margin: 0 0 5px 0;
-}
-.link-content ul li:first-child {
-  margin: 0;
-}
-.sub-link li {
-  margin: 5px 0;
-}
-.sub-link li a {
-  text-decoration: none;
-  font-size: 15px;
-  color: #c1c1c1;
-}
-.sub-link li a:hover {
-  text-decoration: underline;
-  /*color: #987a00;*/
-}
 #footer-lower {
   /*width: 1080px;*/
   margin: 0px auto 0 auto;
-  border-top: 1px solid #c1c1c1;
-  background: linear-gradient(to bottom, #00518e 0%,#0c51d0 50%, #001640 100%);
+  background: #333;
 }
 #footer-lower div {
   margin: 5px auto 0 auto;
@@ -68,83 +19,9 @@
   color: #c1c1c1;
   text-align: center;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
   font-weight: initial;
   letter-spacing: 0.5px;
 }
-/*.link-content {
-  list-style: none;
-  padding: 0;
-  overflow: hidden;
-  margin-top: 70px;
-}
-.link-content li {
-  width: calc(1040px / 4);
-  width: 260px;
-  float: left;
-}
-.link-content li h4 {
-  margin: 0;
-  font-size: 14px;
-  font-weight: initial;
-  color: #b1b1b1;
-}
-.sub-link {
-  overflow: hidden;
-  padding: 0;
-}
-.sub-link li {
-  list-style: none;
-}
-.sub-link li a {
-  text-decoration: none;
-  font-size: 14px;
-  color: #757575;
-}
-.sub-link li a:hover {
-  text-decoration: underline;
-}
-.link-content .sns {
-  position: relative;
-  top: 45px;
-  left: -259px;
-  float: left;
-}*/
-/*#footer {
-  clear: both;
-}
-.footer-container {
-  min-width: 1080px;
-  margin: 0;
-  overflow: hidden;
-  background: linear-gradient(to bottom, #00aaff 0%, #0057a2 100%);
-}
-.icon-link {
-  list-style: none;
-  text-align: center;
-  margin: 15px 0 15px 0;
-}
-.icon-link:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-.icon-link li {
-  float: left;
-  width: 8%;
-}
-.icon-link li:first-child {
-  padding-left: 38%;
-}
-.icon-link img:hover {
-  opacity: 0.5;
-}
-.copyright h4 {
-  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
-  color: #eee;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 15px;
-}*/
