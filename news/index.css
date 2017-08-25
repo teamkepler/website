@@ -32,7 +32,12 @@ body {
   height: 400px;
   background-position: 50%;
 }
-
+#bg-pattern {
+  background-image: url(/news/bg-px.png);
+  background-repeat: repeat;
+  z-index: 0;
+  height: 400px;
+}
 
 .content {
   border: 1px solid #b1b1b1;

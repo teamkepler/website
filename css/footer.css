@@ -1,7 +1,7 @@
 #footer-lower {
   /*width: 1080px;*/
   margin: 0px auto 0 auto;
-  background: #333;
+  background: #c1c1c1;
 }
 #footer-lower div {
   margin: 5px auto 0 auto;
@@ -16,12 +16,12 @@
 }
 #footer-lower h4 {
   font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
-  color: #c1c1c1;
+  color: #333;
   text-align: center;
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
-  font-weight: initial;
+  font-weight: bold;
   letter-spacing: 0.5px;
 }
