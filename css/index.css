@@ -40,7 +40,8 @@ body {
   margin: 0 auto;
 }
 .content-1 {
-  background-image: url(/images/index/type01.png);
+  /*background-image: url(/images/index/type01.png);*/
+  background-image: url(/images/index/type03.png);
   background-size: 548px;
   height: 410px;
   background-repeat: no-repeat;
@@ -125,6 +126,8 @@ body {
   overflow: hidden;
   padding: 0;
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 .latest-news li {
   border-top: 1px dashed #c1c1c1;
