@@ -17,7 +17,7 @@ $(function() {
 	var nav = $('#globalnav'),
   offset = nav.offset();
 	$(window).scroll(function () {
-	  if($(window).scrollTop() > offset.top) {
+	  if($(window).scrollTop() >= offset.top + 65) {
 	    nav.addClass('fixed');
 	  } else {
 	    nav.removeClass('fixed');

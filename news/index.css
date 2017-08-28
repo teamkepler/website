@@ -39,7 +39,21 @@ body {
   height: 400px;
 }
 
-.content {
+.title {
+  cursor: pointer;
+}
+.title:hover {
+  opacity: 0.8;
+}
+.title::after {
+  content: "▼";
+  font-size: 22px;
+}
+.title.active::after {
+  content: "▲";
+}
+
+/*.content {
   border: 1px solid #b1b1b1;
   margin: 20px 0px 20px;
   background: white;
@@ -107,7 +121,7 @@ body {
 }
 .article img {
   border: 1px solid #b1b1b1;
-}
+}*/
 
 
 .sns-space {

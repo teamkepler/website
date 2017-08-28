@@ -1,11 +1,12 @@
 #footer-lower {
   /*width: 1080px;*/
   margin: 0px auto 0 auto;
-  background: #c1c1c1;
+  background: #e9ebee;
 }
 #footer-lower div {
-  margin: 5px auto 0 auto;
+  margin: 0 auto;
   width: 280px;
+  padding: 5px 0;
 }
 #footer-lower img {
   width: 280px;
@@ -22,6 +23,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   letter-spacing: 0.5px;
+  border-top: 1px solid #c1c1c1;
 }

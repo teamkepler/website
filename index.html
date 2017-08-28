@@ -17,7 +17,6 @@ ga('send', 'pageview');
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <script>
   $(function() {
-    $("#header").load("/partials/header.html");
     $("#footer").load("/partials/footer.html");
   });
 </script>
@@ -29,23 +28,91 @@ ga('send', 'pageview');
 <title>Team Kepler - 日本初のパーソナルモビリティクラブチーム</title>
 </head>
 <body>
-<div id="header"></div>
 
-<div class="video-wrap">
-  <video src="/images/top-video.mp4" autoplay loop muted></video>
+<div id="top">
+  <div class="content-1">
+    <img id="logo-main" src="/images/header/main-logo.png" alt="">
+    <img id="logo-character" src="/images/header/logo-character.png" alt="" >
+    <h1>日本初のパーソナルモビリティクラブチーム</h1>
+  </div>
+</div>
+<div id="top-lower">
+  <ul class="globalnav-list">
+    <li><a href="/">HOME</a></li>
+    <li><a href="/news/">NEWS</a></li>
+    <li><a href="/shop/">SHOP</a></li>
+    <li><a href="/contact/">CONTACT</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+$(function() {
+	var nav = $('#top-lower'),
+  offset = nav.offset();
+	$(window).scroll(function () {
+	  if($(window).scrollTop() >= offset.top) {
+	    nav.addClass('fixed');
+	  } else {
+	    nav.removeClass('fixed');
+	  }
+	});
+});
+</script>
+
+<div class="content content-2">
+  <h2>Latest News</h2>
+  <p>Team Kepler Newsの中から最新の情報をピックアップ</p>
+  <ul class="latest-news">
+    <!-- <li>
+      <time>2017.08.28</time>
+      <a href="/news#20170828">新型セグウェイ/ナインボット発表！</a>
+    </li> -->
+    <li>
+      <time>2017.08.21</time>
+      <a href="/news#20170821">オフィシャルムービー第2弾がYouTubeで公開されました！</a>
+    </li>
+    <li>
+      <time>2017.06.15</time>
+      <a href="/news#20170615">Team Keplerオンラインショップにて、Kiwano KO1 Electric Scooterの予約販売を開始！</a>
+    </li>
+    <li>
+      <time>2017.05.20</time>
+      <a href="/news#20170520">パソモビ運動会(主催：日本パーソナルモビリティ協会)開催</a>
+    </li>
+  </ul>
 </div>
 
-<div class="content content-1">
+<div class="content content-3">
+  <h2>Instagram Photo</h2>
+  <p>Instagramで公開されている素敵な写真を厳選して紹介</p>
+  <ul class="photo-wrap">
+    <li><img src="/images/index/photo-01.png" alt=""></li>
+    <li><img src="/images/index/photo-02.png" alt=""></li>
+    <li><img src="/images/index/photo-03.jpg" alt=""></li>
+    <li><img src="/images/index/photo-04.jpg" alt=""></li>
+    <li><img src="/images/index/photo-05.jpg" alt=""></li>
+    <li><img src="/images/index/photo-06.jpg" alt=""></li>
+  </ul>
+</div>
+
+<div class="content content-4">
+  <h2>Facebook / Twitter</h2>
+  <p>Team Kepler公式アカウントの紹介</p>
+  <ul class="sns">
+    <li><h3>Facebook</h3><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteamkepler%2F&tabs=timeline&width=450&height=450&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="450" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+    <li><h3>Twitter</h3><a class="twitter-timeline" data-width="450" data-height="450" href="https://twitter.com/team_kepler">Tweets by team_kepler</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+  </ul>
+</div>
+
+<!-- <div class="content content-1">
   <h1>"パーソナルモビリティの未来を切り拓く"</h1>
   <h2>
     Team Keplerは、日本初のパーソナルモビリティクラブチームとしての使命を持ち、未来への軌道を作り上げていきます。<br />
     "make your orbit."<br />
   </h2>
-</div>
+</div> -->
 
-<div class="content content-2">
-  <!-- <img src="/images/index/content-pic.png" alt=""> -->
-</div>
+<!-- <div class="content content-2">
+</div> -->
 
 <!-- <div class="content content-1">
   <ul>
@@ -96,18 +163,6 @@ ga('send', 'pageview');
       </div>
     </li>
   </ul>
-</div> -->
-
-<!-- <div class="content content-2">
-  <div class="about-us">
-    <h2>Team Keplerについて</h2>
-    <h3><span>近年、次世代の移動手段としてパーソナルモビリティが注目を浴び始めています。</span>
-      <br /><span>単なる移動手段だけでなく、パフォーマンスとしての使用や新しいスポーツ競技への発展など、</span>
-      <br/ ><span>あらゆる可能性を現実のものにすべく、Team Keplerは設立されました。</span>
-      <br /><span>日本初のパーソナルモビリティクラブチームとして、</span>
-      <br /><span>世の中にない新たな価値を生み出し、皆様に提供し続けていくことこそ、我々の使命であります。</span>
-    </h3>
-  </div>
 </div> -->
 
 <!-- <div class="content content-3">

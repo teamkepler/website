@@ -23,6 +23,44 @@
     });
   });
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="/news/article/article.css">
+  <script>
+  $(function() {
+    var targetURLArr = [
+      // '/news/article/20170828.html',
+      '/news/article/20170821.html',
+      '/news/article/20170615.html',
+      '/news/article/20170520.html',
+      '/news/article/20170519-2.html',
+      '/news/article/20170519-1.html',
+      '/news/article/20170423.html',
+      '/news/article/20170328.html',
+      '/news/article/20170319-2.html',
+      '/news/article/20170319-1.html'
+    ];
+    for(var i = 0, len = targetURLArr.length; i < len; i++) {
+      var forCount = i;
+      (function (i) {
+        var targetURL = targetURLArr[i];
+        $.ajax({
+          type: 'GET',
+          url: targetURL,
+          dataType: 'html',
+          async: false,
+          timeout: 30000,
+          success: function(data) {
+            $('#left').append(data);
+          },
+          error: function() {
+            $('#left').append("<p>Couldn't load files...</p>");
+          },
+          complete: function(){}
+        });
+      })(forCount);
+    }
+  });
+  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="keywords" content="teamkepler,チームケプラー,パーソナルモビリティ,電動一輪車,セグウェイ,segway,ninebot,乗り物,未来,山口太朗,内山大輝">
   <meta name="description" content="Team Keplerのニュースをご覧いただけます。設立当初の記事から最新の記事まで、幅広く揃えています。">
@@ -32,6 +70,7 @@
 </head>
 <body>
 <div id="header"></div>
+
 <div id="bg">
 <div id="page-title">
   <div id="bg-pattern">
@@ -40,226 +79,8 @@
 <!-- <div id="bg-pattern">
 </div> -->
 <div id="main">
-<div id="left">
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">08/21</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="オフィシャルムービー第2弾がYouTubeで公開されました！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">オフィシャルムービー第2弾がYouTubeで公開されました！</h2>
-    <div class="article">
-      <p>
-      Team Keplerは、先月7月に設立1周年を迎えました。色々な方々に支えられながら、こうして最初の節目を迎えることができたと感じています。ありがとうございました。そして、引き続き応援よろしくお願いいたします。<br /><br />
-      さて、2年目に突入ということですが、クラブとしてもさらなる高みを目指すために、Team Keplerオフィシャルムービー第2弾をYouTubeで公開しました！選手達のモチベーションアップにも繋がると思います。是非ご覧ください！<br /><br />
-      <a href="https://www.youtube.com/watch?v=QeUFWb7IC20&feature=youtu.be">https://www.youtube.com/watch?v=QeUFWb7IC20&feature=youtu.be</a>
-      </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/QeUFWb7IC20" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
 
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">06/15</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Team Keplerオンラインショップにて、Kiwano KO1 Electric Scooterの予約販売を開始！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">Team Keplerオンラインショップにて、Kiwano KO1 Electric Scooterの予約販売を開始！</h2>
-    <div class="article">
-      <p>
-        Team Keplerオンラインショップにて、最新鋭のパーソナルモビリティマシン・Kiwano KO1 Electric Scooterの予約販売が開始されました！<br /><br />
-        斬新でスタイリッシュな形状が特徴的なKO1 Electric Scooterは、圧倒的な充電効率によりたった1時間で充電が完了し、最高速度32km/h、航続距離32kmとこれまで以上にパワフルな性能を兼ね備えています。また、安定した大きなタイヤにより、初心者でも練習なしで簡単に乗りこなすことができます。抜群の性能と安全性を誇る次世代のパーソナルモビリティとして大きな注目を集めています！<br /><br />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kGbFSePACXY" frameborder="0" allowfullscreen></iframe><br />
-        ▼詳しくは、以下のリンクから▼<br />
-        <a href="https://teamkepler.com/shop/kiwano/">https://teamkepler.com/shop/kiwano/</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">05/20</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="パソモビ運動会(主催：日本パーソナルモビリティ協会)開催！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">パソモビ運動会(主催：日本パーソナルモビリティ協会)開催</h2>
-    <div class="article">
-      <p>
-      2017年5月20日(土)、都内フットサルコートでパソモビ運動会が開催されました。本大会は日本パーソナルモビリティ協会(主催)とTeam Kepler(協賛)によって開催されました。<br /><br />
-      参加者のほとんどがパーソナルモビリティ未経験者ということもあり、スタッフによるレクチャーを受けて乗り方をマスターしていきました。30分ほどのレクチャーを受けた後は、参加者・スタッフ合同でパーソナルモビリティレースが行われ、皆さん大いに楽しんでいました！<br /><br />
-      パーソナルモビリティの認知度はまずまずではあったものの、こういった活動を通してパーソナルモビリティ業界をどんどん盛り上げていきたいと思います！！
-      </p>
-      <img src="/news/images/20170520.JPG" alt="" width="450">
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">05/19</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="パソモビ運動会(主催：日本パーソナルモビリティ協会)の協賛が決定" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">パソモビ運動会(主催：日本パーソナルモビリティ協会)の協賛が決定</h2>
-    <div class="article">
-      <p>
-      明日開催されるパソモビ運動会(主催：日本パーソナルモビリティ協会)に、Team Kepler(代表・山口太朗)が協賛することが決定いたしましたのでお知らせいたします。<br /><br />
-      ■パソモビ運動会2017■<br />
-      開催日程：2017年5月20日(土) 15:00<br />
-      開催場所：フットサル台場<br />
-      主催：日本パーソナルモビリティ協会　協賛：Team Kepler<br /><br />
-      皆様のご参加、お待ちしております！
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">05/19</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Team Kepler紹介カードの配布開始" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">Team Kepler紹介カードの配布開始</h2>
-    <div class="article">
-      <p>
-      本日5月19日、Team Kepler紹介カードの配布が開始されました。本紹介カードは、各種大会・イベントなどの参加者を対象に配布されます。紹介カードの主な内容や目的は以下の通りです。<br /><br />
-      ■Team Kepler紹介カードについて<br />
-      目的：Team Keplerの宣伝及びパーソナルモビリティの普及<br />
-      内容：活動拠点、ホームページ及びSNSのリンク・QRコード<br /><br />
-      ▼実際に配布されている紹介カード▼<br />
-      <img src="/news/images/20170519.jpeg" alt="teamkepler-card" width="320px">
-      <br /><br />
-      イベント・大会の参加者だけでなく、私たちの活動に興味を持ってくださった方々にも配布しています。お気軽にお声掛け下さい^^
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">04/23</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="LINE@にてTeam Kepler公式アカウントがスタート！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">LINE@にてTeam Kepler公式アカウントがスタート！</h2>
-    <div class="article">
-      <p>
-      本日4月23日、Team Kepler(代表=山口太朗)は、LINE@にてTeam Keplerの公式アカウントがスタートしたことを発表した。LINE@は、コミュニケーションアプリLINEが提供しているサービスの一つで、ビジネスや情報発信に利用可能な会社/事業者向けLINEアカウントである。<br /><br />
-      代表は、「LINE@のような大手のコミュニケーションアプリを活用することで、Team Keplerの活動を今まで以上に発信することができるようになる。また、まだまだ認知度の低いパーソナルモビリティの存在を知っていただき、これらの普及につながれば良いと思う。」と語った。<br /><br />
-      Team Keplerは、YouTubeやTwitter、Facebookなどに続き、LINE@という新たなSNSの発信力を手に、これからも世界にアピールしていく。<br /><br />
-      ▼LINE@の登録は以下のリンクまたはQRコードから▼<br />
-      <a href="https://line.me/R/ti/p/%40gla9158f">https://line.me/R/ti/p/%40gla9158f</a><br />
-      <img src="/news/images/line-qr.png" alt="" width="220">
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">03/28</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Team Kepler、ロゴを発表！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">Team Kepler、ロゴを発表！</h2>
-    <div class="article">
-      <p>
-        本日3月28日、Team Kepler(代表=山口太朗)がクラブのロゴを発表した。公開されたロゴは以下の通りである。<br /><br />
-        ▼本日公開されたTeam Keplerロゴ▼<br />
-        <img src="/news/images/20170328.jpg" alt="" width="300"><br /><br />
-        本ロゴは、Team Kepler広報部の内山がデザインしたものである。内山は広報部所属であるが、活動の撮影や動画編集、SNSでの公開に至るまで、あらゆる仕事をこなしている。そんな中、今回のロゴデザインを任された。このロゴに込められた想いについて内山は、「Team Kepler発足のきっかけと言っても良い電動一輪車をモチーフに考えた。そして、ブランドメッセージである"make your orbit."のように、今後のクラブ経営も軌道に乗ってほしいという願いを込めて、美しい円で軌道を描くデザインにした。」と語った。<br /><br />
-        Team Keplerは、このロゴとともに未来への軌道に乗って行く。
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">03/19</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="YouTubeでの動画配信がスタートしました！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">YouTubeでの動画配信がスタートしました！</h2>
-    <div class="article">
-      <p>
-      本日より、動画共有サイトYouTubeで動画配信を開始しました。Team Keplerの活動を軸に、その他イベントや大会などの様子もアップしていきます。<br /><br />
-      将来的には、パーソナルモビリティを使ったかっこいいプロモーションビデオの撮影を行っていきたいと思います。その際には、多くのパーソナルモビリティライダーに集結して頂けると嬉しいです！ Team Keplerのライダー募集もまだまだ行っておりますので、興味のある方は是非お問い合わせ下さい^^<br /><br />
-      ▼YouTubeのチャンネル登録はこちらから▼<br />
-      <a href="https://www.youtube.com/TeamKeplerTV">https://www.youtube.com/TeamKeplerTV</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="upper">
-      <time><span class="year">2017</span><br><span class="date">03/19</span></time>
-      <ul class="share-sns">
-        <li>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fteamkepler.com%2Fnews&width=117&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Instagram始めました！" data-via="team_kepler" data-hashtags="teamkepler">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title">Instagram始めました！</h2>
-    <div class="article">
-      <p>
-      Team Keplerは、人気画像投稿アプリInstagramでの発信を開始しました。Instagramでは、活動のワンショットや流行りの分割アートなど、色々な写真をアップしていきたいと思います。<br /><br />
-      皆様、フォローよろしくお願いします！<br />
-      <img src="/news/images/20170319.JPG" alt="photo" width="320"><br />
-      ▼Instagramのフォローはこちらから▼<br />
-      <a href="https://www.instagram.com/team_kepler/">https://www.instagram.com/team_kepler/</a>
-      </p>
-    </div>
-  </div>
-
-</div><!--left-->
+<div id="left"></div><!--inclde article-->
 
 <div id="right">
   <ul class="sns-space">
@@ -275,9 +96,9 @@
 
     <li><a href="https://hb.afl.rakuten.co.jp/hgc/15f6ecf0.dc182557.15f6ecf1.25681cdd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvoldy%2F10017260%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvoldy%2Fi%2F10017260%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjowLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/15f6ecf0.dc182557.15f6ecf1.25681cdd/?me_id=1244142&item_id=10017260&m=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fvoldy%2Fcabinet%2F05105559%2Fninebot-mini_top1.jpg%3F_ex%3D80x80&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fvoldy%2Fcabinet%2F05105559%2Fninebot-mini_top1.jpg%3F_ex%3D300x300&s=300x300&t=pict" border="0" style="margin:2px" alt="" title=""></a></li>
 
-    <!-- <li><a href="https://px.a8.net/svt/ejp?a8mat=2TPDB5+8ZAE9E+3CWI+60WN5" target="_blank" rel="nofollow">
+    <li><a href="https://px.a8.net/svt/ejp?a8mat=2TPDB5+8ZAE9E+3CWI+60WN5" target="_blank" rel="nofollow">
     <img border="0" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=170824865543&wid=001&eno=01&mid=s00000015669001012000&mc=1"></a>
-    <img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=2TPDB5+8ZAE9E+3CWI+60WN5" alt=""></li> -->
+    <img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=2TPDB5+8ZAE9E+3CWI+60WN5" alt=""></li>
 
     <!-- <li><a href="https://px.a8.net/svt/ejp?a8mat=2TPDB5+8TXHTE+3S04+5ZMCH" target="_blank" rel="nofollow">
     <img border="0" width="300" height="250" alt="" src="https://www23.a8.net/svt/bgt?aid=170824865534&wid=001&eno=01&mid=s00000017626001006000&mc=1"></a>
