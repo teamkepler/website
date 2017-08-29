@@ -85,13 +85,14 @@ $(function() {
   <h2>YouTube</h2>
   <p>日頃の活動風景やオフィシャルムービーなどを<a href="https://www.youtube.com/TeamKeplerTV" target="_blank">Team Kepler公式チャンネル</a>で配信中！</p>
   <div class="movie">
-    <iframe width="700" height="394" src="https://www.youtube.com/embed/QeUFWb7IC20?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div id="player"></div>
+    <!-- <iframe width="700" height="394" src="https://www.youtube.com/embed/QeUFWb7IC20?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe> -->
   </div>
 </div>
 
 <div class="content content-3">
   <h2>Instagram</h2>
-  <p>Instagramで公開されている素敵な写真を厳選して紹介</p>
+  <p>Instagramで公開されている写真を一部紹介</p>
   <ul class="photo-wrap">
     <li><img src="/images/index/photo-01.png" alt=""></li>
     <li><img src="/images/index/photo-02.png" alt=""></li>
@@ -112,14 +113,6 @@ $(function() {
 </div>
 
 <!-- <div class="content content-5">
-  <h2>YouTube</h2>
-  <p>日頃の活動風景やオフィシャルムービーなどを<a href="https://www.youtube.com/TeamKeplerTV" target="_blank">Team Kepler公式チャンネル</a>で配信中！</p>
-  <div class="movie">
-    <iframe width="700" height="394" src="https://www.youtube.com/embed/QeUFWb7IC20?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div> -->
-
-<!-- <div class="content content-5">
   <ul class="sponsor">
     <li><a href="https://px.a8.net/svt/ejp?a8mat=2TPDB5+8TXHTE+3S04+5ZU29" target="_blank" rel="nofollow">
     <img border="0" width="234" height="60" alt="" src="https://www29.a8.net/svt/bgt?aid=170824865534&wid=001&eno=01&mid=s00000017626001007000&mc=1"></a>
@@ -135,6 +128,39 @@ $(function() {
 
 <div id="footer"></div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js">
+</script>
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+player = new YT.Player('player', {
+height: '450',
+width: '800',
+videoId: 'QeUFWb7IC20',
+wmode: 'transparent',
+playerVars:{
+'loop': '1',
+'playlist': 'QeUFWb7IC20',
+'rel': '0',
+'showinfo': '0',
+'color': 'white',
+},
+events: {
+'onReady': onPlayerReady,
+'onStateChange': onPlayerStateChange
+}
+});
+}
+function onPlayerReady(event) {
+event.target.playVideo();
+event.target.mute();
+}
+function onPlayerStateChange(event) {
+}
 </script>
 </body>
 </html>
