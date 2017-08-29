@@ -204,11 +204,20 @@ body {
 .content-4 .sns li:first-child {
   margin: 0 50px;
 }
-.twitter-timeline {
-
-}
 
 .content-5 {
+  width: 1080px;
+  margin: 90px auto;
+}
+.content-5 a {
+  color: blue;
+}
+.content-5 .movie {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/*.content-5 {
   width: 1080px;
   margin: 30px auto;
 }
@@ -224,7 +233,7 @@ body {
   width: 250px;
   height: 70px;
   margin: 0px 48px;
-}
+}*/
 /*.sponsor img {
   width: 250px;
   height: 70px;
