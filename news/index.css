@@ -133,3 +133,13 @@ body {
 .sns-space li {
   margin-bottom: 20px;
 }
+.livedoor-blog {
+  border: 1px solid #b1b1b1;
+}
+.livedoor-blog h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid #b1b1b1;
+}
